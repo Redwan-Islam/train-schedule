@@ -1,0 +1,90 @@
+#bdy1 {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#transaction-left {
+  text-align: center;
+  color: black;
+  padding: 30px;
+}
+#transaction-left img {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 80px;
+  animation: mover 1s infinite alternate;
+}
+#transaction-left p {
+  padding: 20px 20px 0;
+}
+#transaction-left .btn-primary {
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #f8f8f8;
+  font-weight: 600;
+  color: #555;
+  margin-top: 20px;
+  padding: 10px;
+}
+#transaction-left .btn-primary:hover {
+  background: darkslategray;
+  color: white;
+}
+#transaction-right {
+  border: none;
+  background: darkslategray;
+
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 50px;
+}
+#transaction-right h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.transaction-form {
+  padding: 30px;
+}
+#transaction-right .btn-primary {
+  float: right;
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #ff9800;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+#transaction-right .btn-primary:hover {
+  background: #ff5722;
+}
+
+.from-control {
+  width: 100%;
+  border: 0px solid;
+  border-radius: 100px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
+
+#passangerNum {
+  width: 100%;
+  border: 0px solid;
+  border-radius: 100px;
+  padding: 5px 10px;
+  outline: none;
+}

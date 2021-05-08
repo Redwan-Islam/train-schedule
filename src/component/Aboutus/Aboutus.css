@@ -1,0 +1,53 @@
+#main-card {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  font-family: arial;
+  margin-right: 80px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.aboutbutton {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.atag {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.aboutbutton:hover,
+a:hover {
+  opacity: 0.7;
+}
+.card-text {
+  text-align: center;
+}
+.card-design {
+  margin: 24px 0;
+}
+.aboutbutton {
+  text-decoration: none;
+}

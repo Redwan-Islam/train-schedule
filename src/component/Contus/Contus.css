@@ -1,0 +1,72 @@
+.feedback {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: darkslategray;
+}
+
+.formContainer {
+  width: 400px;
+  background: rgb(196, 46, 46);
+}
+
+.formContainer form {
+  width: 100%;
+  text-align: center;
+  padding: 25px 20px;
+}
+
+form h1 {
+  padding: 10px 0;
+}
+
+form .id {
+  position: relative;
+}
+
+form input {
+  width: 100%;
+  height: 100%;
+  margin: 4px 0;
+  margin-bottom: 10px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  outline: none;
+  padding: 15px 15px;
+  padding-right: 45px;
+  font-size: 20px;
+}
+
+form textarea {
+  padding: 5px 15px;
+  border: 1px solid #5c5c5c;
+  border-radius: 3px;
+  font-size: 20px;
+  width: 100%;
+  margin: 4px 0;
+  margin-bottom: 10px;
+  outline: none;
+}
+.submitButton {
+  border: none;
+  background: #333333;
+  color: white;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+  text-align: center;
+  transition: 0.5s;
+}
+.submitButton:hover {
+  background: #e6e6e6;
+  color: #333333;
+}
