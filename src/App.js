@@ -20,37 +20,37 @@ function App() {
             <Home></Home>
           </Route>
           <Route path="/Dtn">
-            <Dtn></Dtn>
+            <Dtn/>
           </Route>
           <Route path="/Ntd">
-            <Ntd></Ntd>
+            <Ntd/>
           </Route>
           <Route path="/Dtnh">
-            <Dtnh></Dtnh>
+            <Dtnh/>
           </Route>
           <Route path="/Ticpur">
-            <Ticpur></Ticpur>
+            <Ticpur/>
           </Route>
           <Route path="/Tpr">
-            <Tpr></Tpr>
+            <Tpr/>
           </Route>
           <Route path="/Contus">
-            <Contus></Contus>
+            <Contus/>
           </Route>
           <Route path="/Aboutus">
-            <Aboutus></Aboutus>
+            <Aboutus/>
           </Route>
           <Route path="/Ntdh">
-            <Ntdh></Ntdh>
+            <Ntdh/>
           </Route>
           <Route path="/Ntdticket">
-            <Ntdticket></Ntdticket>
+            <Ntdticket/>
           </Route>
           <Route exact path="/">
-            <Home></Home>
+            <Home/>
           </Route>
           <Route path="*">
-            <NoMatch></NoMatch>
+            <NoMatch/>
           </Route>
         </Switch>
       </Router>
